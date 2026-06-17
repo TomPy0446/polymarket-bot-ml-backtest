@@ -1,0 +1,20 @@
+# Local runs + logs
+runs/
+*.log
+*.pid
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Secrets — never commit
+.github_pat
+*.key
+*.crt
+.env
+
+# IDE
+.vscode/
+.idea/
