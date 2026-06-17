@@ -1,0 +1,50 @@
+{
+  "datasets": [
+    {
+      "name": "crypto15_resolved",
+      "path": "/root/backtest_data/crypto15_resolved.parquet",
+      "shape": [
+        120231,
+        18
+      ],
+      "cols": [
+        "id",
+        "condition_id",
+        "question",
+        "slug",
+        "outcomes",
+        "outcome_prices",
+        "clob_token_ids",
+        "volume",
+        "liquidity",
+        "active",
+        "closed",
+        "end_date",
+        "created_at",
+        "market_maker_address",
+        "_fetched_at",
+        "yes_resolved",
+        "end_date_dt",
+        "symbol"
+      ]
+    },
+    {
+      "name": "sampled_prices",
+      "path": "/root/backtest_data/sampled_prices.parquet",
+      "shape": [
+        3076,
+        8
+      ],
+      "cols": [
+        "idx",
+        "mid_price",
+        "n_prices",
+        "yes_resolved",
+        "symbol",
+        "end_date",
+        "condition_id",
+        "error"
+      ]
+    }
+  ]
+}
