@@ -1,0 +1,1 @@
+/root/trading/polymarket_bot/scripts/check_dashboard_https.sh
